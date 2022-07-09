@@ -13,6 +13,7 @@ html, body {
     background-size: cover;
 }
 
+/* Just for fun */
 .middle-section {
     background-color: rgb(211, 211, 211);
     width: 1300px;
@@ -23,13 +24,18 @@ html, body {
     
 }
 
+/* Navbar using unordered list */
 .navigation {
     background-color: black;
     text-align: center;
-    top: 0px;
+    margin: 0;
     overflow: hidden;
-    padding: 10px 0px 25px;
+    padding: 1.5rem 0px 25px;
 
+}
+
+ul li {
+    display: inline-block;
 }
 
 nav a {
@@ -44,7 +50,7 @@ nav a:hover {
     background-color: orange;
 }
 
-
+/* Pink box containing assignment 1 */
 .assignment-1 {
     width: 375px;
     height: 270px;
@@ -56,6 +62,9 @@ nav a:hover {
     overflow: auto; /* put auto instead of scroll because it got rid of white space at bottom*/
 }
 
+/* Table containing two elements: picture on bottom left and pink text block on bottom right */
+
+/* The image with border */
 .another-image img {
     border: 2px solid black;
     border-radius: 10px;
@@ -70,6 +79,7 @@ td {
     text-align: center;
 }
 
+/* Pink block and button; the button is an item in the pinkblock list */
 .pink-blocks {
     width: 28vw;
 }
@@ -114,6 +124,7 @@ button a {
     color: white;
 }
 
+/* Footer */
 .bottom-of-page {
     background-color: black;
     text-align: center;
