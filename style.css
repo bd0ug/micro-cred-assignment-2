@@ -16,7 +16,7 @@ html, body {
 /* Just for fun */
 .middle-section {
     background-color: rgb(211, 211, 211);
-    width: 1300px;
+    width: 1250px;
     margin: auto;
     height:max-content;
 
@@ -134,7 +134,7 @@ button a {
     /* position: relative; */
     padding: 10px 0px;
     height: 9vh;
-    width: 1300px;
+    width: 1250px;
         
 }
 
