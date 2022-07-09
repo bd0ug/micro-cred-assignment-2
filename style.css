@@ -70,7 +70,9 @@ nav a:hover {
     border-radius: 10px;
 }
 
-table {
+/* Also used span so the items would be in line, but i ended up with table since it spaced
+it evenly */
+table {                             
     margin: auto;
     padding-top: 30px;
 }
