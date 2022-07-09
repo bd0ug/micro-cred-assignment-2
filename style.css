@@ -121,7 +121,7 @@ button {
     border-radius: 10px;
 }
 
-button a {
+a button {
     text-decoration: none;
     color: white;
 }
