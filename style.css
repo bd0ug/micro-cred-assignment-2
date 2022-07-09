@@ -126,6 +126,10 @@ button a {
     color: white;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /* Footer */
 .bottom-of-page {
     background-color: black;
