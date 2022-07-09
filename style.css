@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    background-image: url("beach.jpeg");
+
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle-section {
+    background-color: rgb(211, 211, 211);
+    width: 1300px;
+    margin: auto;
+    height:max-content;
+
+    box-shadow: 2px 5px 50px black;
+    
+}
+
+.navigation {
+    background-color: black;
+    text-align: center;
+    top: 0px;
+    overflow: hidden;
+    padding: 10px 0px 25px;
+
+}
+
+nav a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 50px;
+    font-size: x-large;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+
+.assignment-1 {
+    width: 375px;
+    height: 270px;
+    margin: auto;
+    padding: 0px 10px;
+    border: 3px solid hotpink;
+    margin-top: 20px;
+
+    overflow: auto; /* put auto instead of scroll because it got rid of white space at bottom*/
+}
+
+.another-image img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    padding-top: 30px;
+}
+td {
+    width: 60vw;
+    text-align: center;
+}
+
+.pink-blocks {
+    width: 28vw;
+}
+
+.block-text {
+    padding: 40px 0px 0px 0px;
+    font-size: large;
+    text-align: left;
+}
+
+.pink-blocks-button {
+    text-align: center;
+}
+
+.pink-blocks dd:nth-child(1){
+    background-color: hotpink;
+    font-family: Arial;
+}
+
+.pink-blocks dd:nth-child(2){
+    background-color: pink;
+    font-family: Courier;
+}
+
+.pink-blocks dd:nth-child(3){
+    background-color: lightpink;
+    font-family: Georgia;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-of-page {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0px;
+    color: white;
+    /* position: relative; */
+    padding: 10px 0px;
+    height: 9vh;
+    width: 1300px;
+        
+}
+
+
+
