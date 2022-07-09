@@ -123,11 +123,8 @@ button {
 
 a button {
     text-decoration: none;
-    color: white;
-}
-
-.pointer {
     cursor: pointer;
+    color: white;
 }
 
 /* Footer */
