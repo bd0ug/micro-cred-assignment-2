@@ -70,10 +70,9 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* Also used span so the items would be in line, but i ended up with table since it spaced
-it evenly */
-table {                             
-    margin: auto;
+/* Also used span so the items would be in line, but i ended up with table since it spaced it evenly */
+table {      
+    margin: auto;                       
     padding-top: 30px;
 }
 td {
@@ -83,7 +82,7 @@ td {
 
 /* Pink block and button; the button is an item in the pinkblock list */
 .pink-blocks {
-    width: 28vw;
+    width: 400px;
 }
 
 .block-text {
@@ -122,8 +121,8 @@ button {
 }
 
 a button {
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
     color: white;
 }
 
@@ -140,6 +139,3 @@ a button {
     width: 1250px;
         
 }
-
-
-
